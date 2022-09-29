@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/employeeName"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/audiowide"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/nightBlack"
+            android:textSize="10sp"
+            />
+
+
+        <TextView
+            android:id="@+id/employeePhoneNumber"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/audiowide"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/nightBlack"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/employeeType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:fontFamily="@font/audiowide"
+            android:maxLines="4"
+            android:padding="5dp"
+            android:ellipsize="none"
+            android:textAlignment="textStart"
+            android:textColor="@color/nightBlack"
+            android:textSize="10sp" />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="3"
+        >
+
+
+
+
+
+
+    </TableRow>
+
+
+</TableLayout>
+

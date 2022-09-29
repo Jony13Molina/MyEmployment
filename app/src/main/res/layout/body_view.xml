@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+            android:id="@+id/employeeTeam"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/audiowide"
+            android:maxLines="80"
+            android:padding="10dp"
+            android:layout_weight="4"
+            android:textAlignment="textStart"
+            android:textColor="@color/nightBlack"
+            android:textSize="10sp" />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/employeeEmail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_weight="4"
+            android:fontFamily="@font/audiowide"
+            android:textAlignment="textStart"
+            android:textColor="@color/nightBlack"
+            android:textSize="10sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/employeeBiography"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_weight="2"
+            android:fontFamily="@font/audiowide"
+            android:textAlignment="textStart"
+            android:textColor="@color/nightBlack"
+            android:textSize="12sp" />
+
+
+
+    </TableRow>
+
+</TableLayout>
+

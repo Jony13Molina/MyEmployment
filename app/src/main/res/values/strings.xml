@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyEmployment</string>
+    <string name="employee_image">EmployeeImage</string>
+    <string name="there_are_no_employees">There are no employees</string>
+</resources>
